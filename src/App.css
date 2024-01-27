@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+.WEE {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.WEE2 {
+  font-family: "Poppins", sans-serif;
+}
+
+.Active {
+  color: red;
+}
+
+.Bag {
+  background-image: url("./images/banner-01.jpg");
+}
+
+.Bag2 {
+  background-image: url("./images/banner-02.jpg");
+}
+
+.Bag3 {
+  background-image: url("./images/banner-03.jpg");
+}
+
+.BAF {
+  background-image: url("./images/video-bg.jpg");
+  height: 70vh;
+  background-size: cover;
+  margin-top: 100px;
+}
+
+.BAFF {
+  background-image: url("./images/video-frame.jpg");
+  height: 70vh;
+  background-size: cover;
+  margin-top: -200px;
+}
+
+.swiper-button-next {
+  margin-right: 70px;
+  padding: 25px;
+  border-radius: 360px;
+  font-size: 20px;
+  color: white !important;
+  font-size: 20px !important;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 15px !important;
+  margin-top: 20px !important;
+}
+
+.swiper-button-prev {
+  margin-left: 70px;
+  padding: 25px;
+  border-radius: 360px;
+  font-size: 20px;
+  color: white !important;
+  font-size: 20px !important;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 15px !important;
+  margin-top: 20px !important;
+}
+
+.Prop {
+  background-image: url("./images/page-heading-bg.jpg");
+  height: 47vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.Cont {
+  background-image: url("./images/page-heading-bg.jpg");
+  height: 47vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.scroll-to-top {
+  cursor: pointer;
+  color: black;
+}
+
+.show-scroll-top {
+  background-color: white; /* Change background color when scrolling */
+}
